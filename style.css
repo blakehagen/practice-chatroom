@@ -76,3 +76,9 @@ h5 {
   display: inline-block;
   cursor: pointer;
 }
+
+img {
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+}
