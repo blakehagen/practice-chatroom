@@ -8,6 +8,7 @@ app.controller('mainCtrl', function ($scope, parseService) {
   
   $scope.getParseData = function () {
     parseService.getData().then(function (response) {
+      console.log(response.data.results);
       $scope.messages = response.data.results;
     });
   };

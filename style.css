@@ -3,17 +3,22 @@ html {
   width: 100%;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Myriad Set Pro", sans-serif;
+}
+
+
 body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  /*background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');*/
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  /*background: rgba(255, 255, 255, 0.86);*/
   padding: 5px;
   border-radius: 10px;
 }
@@ -27,8 +32,47 @@ body {
   width: 40%;
 }
 
-p{
+h3 {
+  text-align: left;
+  margin: 3px 15px;
+  font-size: 22px;
+  font-weight: 800px;
+}
+
+h4 {
   text-align: center;
-  margin: 3px 0;
-  font-size: 17px;
+  margin: 5px 0;
+  font-size: 18px;
+
+}
+
+h5 {
+  text-align: left;
+  margin: 3px 55px;
+  font-size: 12px;
+  font-weight: 800px;
+}
+
+.message-box {
+  margin: 20px auto;
+  width: 60%;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
+
+.buttons-container {
+
+  margin: 20px auto;
+  text-align: center;
+  width: 50%;
+}
+
+.button {
+  width: 160px;
+  height: 30px;
+  border: 1px solid #bbb;
+
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
 }
